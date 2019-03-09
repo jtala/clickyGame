@@ -16,7 +16,7 @@ class App extends Component {
 
 //when you click on a card ... the fish is taken out of the array
   imageClick = event => {
-    const currentFish = event.target.alt;
+    var currentFish = event.target.alt;
     const FishAlreadyClicked =
       this.state.clickedFish.indexOf(currentFish) > -1;
 
